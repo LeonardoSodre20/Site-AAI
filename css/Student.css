@@ -1,0 +1,205 @@
+@import url('./variables.css');
+
+.container-inscricao-alunos-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.titulo-principal-container{
+    margin-top: 30px;
+    font-size: var(--sizeTitleMain);
+    color: var(--mainColor);
+    font-family: var(--fontTitles);
+    text-align: center;
+}
+
+.container-inscricao-alunos{
+    background: linear-gradient(to bottom, #81101B, #D71525);
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: var(--shadowDefault);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 15px;
+    margin-bottom: 30px;
+}
+
+.container-icones-inscricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.container-icone-img-inscricao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 300px;
+    height: 300px;
+    background-color: var(--accentColor);
+    border-radius: 15px;
+    box-shadow: var(--shadowDefault);
+    border: 7px solid #fff;
+}
+
+.container-icone-img-inscricao > img{
+    width: 80%;
+}
+
+.container-informacoes-inscricao{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 60%;
+    gap: 15px;
+}
+
+.titulo-principal{
+    font-size: var(--sizeSubTitle);
+    font-family: var(--fontTitles);
+    color: var(--accentColor);
+    letter-spacing: 1.2px;
+}
+
+.informacoes-inscricao{
+    font-size: var(--sizeTextDefault);
+    font-family: var(--fontText);
+    color: #fff;
+    letter-spacing: 1.2px;
+}
+
+.informacoes-inscricao  strong{
+    color: var(--accentColor);
+}
+
+.botao-inscricao{
+    color: var(--mainColor);
+    background-color: var(--accentColor);
+    box-shadow: var(--shadowDefault);
+    border-radius: 15px;
+    border: 5px solid #fff;
+    padding: 10px;
+    font-family: var(--fontTitles);
+    font-size: var(--sizeTextDefault);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.botao-inscricao:hover{
+    transform: scale(1.1);
+}
+
+.titulo-duvidas{
+    font-size: var(--sizeTextDefault);
+    font-family: var(--fontTitles);
+    color: var(--accentColor);
+    letter-spacing: 1.2px;
+}
+
+.container-contato-duvidas-principal{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.container-contato-duvidas{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container-contato-duvidas .contato{
+    color: #fff;
+    font-size: var(--sizeTextDefault);
+    font-family: var(--fontTitles);
+    font-style: italic;
+    letter-spacing: 2px;
+}
+
+.container-icone-duvida{
+    border-radius: 50%;
+    border: 5px solid #fff;
+    box-shadow: var(--shadowDefault);
+    padding: 5px;
+    background-color: var(--accentColor);
+}
+
+@media (max-width: 1225px){
+    .container-inscricao-alunos{
+        flex-wrap: wrap;
+    }
+
+    .container-icones-inscricao{
+        flex-direction: row;
+    }
+
+    .container-informacoes-inscricao{
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .informacoes-inscricao{
+        text-align: justify;
+        padding: 15px;
+    }
+
+    .botao-inscricao{
+        font-size: 2.5em;
+    }
+
+    .titulo-duvidas{
+        font-size: 3em;
+        text-align: center;
+    }
+
+    .contato{
+        font-size: 3em;
+    }
+
+    .container-icones-inscricao{
+        width: 100%;
+    }
+
+    .container-icone-img-inscricao{
+        width: 100%;
+    }
+
+    .container-icone-img-inscricao > img{
+        width: 300px;
+        height: 300px;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 800px){
+
+    .container-icones-inscricao{
+        flex-direction: column;
+    }
+
+    .container-icone-img-inscricao > img{
+        width: 350px;
+        height: 300px;
+    }
+    .titulo-principal-container{
+        font-size: 5.5em;
+    }
+    .contato{
+        font-size: 3em;
+    }
+
+    .titulo-principal{
+        text-align: center;
+    }
+}
+
