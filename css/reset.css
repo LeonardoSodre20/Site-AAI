@@ -6,6 +6,7 @@
 
 body{
     min-height: 100vh;
+    overflow-x: hidden;
     background-color: #FFCC32;
 }
 
@@ -18,4 +19,5 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-direction: column;
 }
