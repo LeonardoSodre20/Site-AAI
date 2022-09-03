@@ -92,6 +92,8 @@
     font-size: var(--sizeTextDefault);
     cursor: pointer;
     transition: 0.5s;
+    width: 250px;
+    text-align: center;
 }
 
 .botao-inscricao:hover{
@@ -220,7 +222,7 @@
         font-size: 3.5em;
     }
     .titulo-principal{
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
     .informacoes-inscricao{
         font-size: 1.1em;
@@ -247,7 +249,7 @@
     }
 
     .titulo-principal-container{
-        font-size: 2.5em;
+        font-size: 2.2em;
     }
 
     .titulo-principal{

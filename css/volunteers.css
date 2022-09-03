@@ -1,0 +1,115 @@
+.container-inscricao-voluntarios-principal{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-bottom: 3px solid #fff;
+}
+
+.container-inscricao-voluntarios{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 30px;
+}
+
+.container-inscricao-voluntarios{
+    background: linear-gradient(to bottom, #81101B, #D71525);
+    width: 90%;
+    border-radius: 15px;
+    box-shadow: var(--shadowDefault);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 40px;
+    padding: 30px;
+    margin-bottom: 60px;
+}
+
+.container-fotos-voluntarios-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.container-fotos-voluntarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--accentColor);
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: var(--shadowDefault);
+    border: 7px solid #fff;
+}
+
+.container-fotos-voluntarios > img{
+    width: 90%;
+}
+
+.container-informacoes-inscricao-voluntarios{
+    width: 65%;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.link-instrucao{
+    font-family: var(--fontTitles);
+    color: var(--accentColor);
+    font-size: var(--sizeTextDefault);
+}
+
+.container-instrucoes-duvidas{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    gap: 25px;
+}
+
+@media (max-width: 1225px) {
+    .container-inscricao-voluntarios{
+        flex-wrap: wrap;
+    }
+
+    .container-fotos-voluntarios-principal{
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .titulo-principal{
+        text-align: center;
+    }
+
+    .container-informacoes-inscricao-voluntarios{
+        width: 100%;
+    }
+
+    .link-instrucao{
+        text-align: center;
+    }
+
+    .container-instrucoes-duvidas{
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media (max-width: 800px){
+    .container-fotos-voluntarios-principal{
+        flex-direction: column;
+    }
+
+
+    .container-fotos-voluntarios{
+        width: 100%;   
+    }
+}

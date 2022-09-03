@@ -1,0 +1,203 @@
+.container-doacoes-principal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    min-height: 100vh;
+    border-bottom: 3px solid #fff;
+}
+
+.container-doacao-instrucao{
+    width: 90%;
+    height: 300px;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    background-color: var(--);
+    background-color: var(--complementaryColorTwo);
+    padding: 15px;
+    box-shadow: var(--shadowDefault);
+}
+
+.container-img-aai{
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 7px solid #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--mainColor);
+    box-shadow: var(--shadowDefault);
+}
+
+.container-img-aai > img{
+    width: 100%;
+}
+
+.informacoes-doacao{
+    font-size: 2em;
+    width: 70%;
+    text-align: justify;
+    font-family: var(--fontText);
+    font-weight: bold;
+    color: var(--mainColor);
+    letter-spacing: 1.2px;
+}
+
+.container-formas-doacao-principal{
+    margin-top: 60px;
+    margin-bottom: 60px;
+    width: 90%;
+    background: linear-gradient(to bottom, #81101B, #D71525);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: var(--shadowDefault);
+}
+
+.container-doacoes{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.container-doacoes-formas{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    gap: 20px;
+    width: 500px;
+    height: 600px;
+    background-color: var(--accentColor);
+    box-shadow: var(--shadowDefault);
+    padding: 15px;
+    border-radius: 15px;
+    border: 7px solid #fff;
+}
+
+.container-logo-e-titulo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.container-img-doacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.container-img-doacao  h1,h2{
+    font-size: var(--sizeTextDefault);
+    font-family: var(--fontTitles);
+    letter-spacing: 1.2px;
+    color: var(--mainColor);
+}
+
+.img-doacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    box-shadow: var(--shadowDefault);
+    border: 5px solid #fff;
+    background-color: var(--mainColor);
+    height: 70px;
+    width: 70px;
+}
+
+.img-doacao > img{
+    width: 100%;
+}
+
+.lista-informacoes-agencia{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+    height: 250px;
+    width: 250px;
+}
+
+.lista-informacoes-agencia > li{
+    font-size: 2em;
+    font-family: var(--fontTitles);
+    color: var(--mainColor);
+}
+
+.lista-informacoes-agencia > li > strong{
+    color: #f1f1f1;
+}
+
+.container-citacao{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 15px;
+    box-shadow: var(--shadowDefault);
+    background-color: var(--complementaryColorTwo);
+    border-bottom: 5px solid var(--mainColor);
+}
+
+.container-citacao > p{
+    font-size: var(--sizeTextDefault);
+    font-family: var(--fontTitles);
+    color: var(--mainColor);
+    text-align: center;
+    padding: 15px;
+    border: none;
+}
+
+.container-qr-code{
+    height: 250px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-qr-code > img{
+    width: 100%;
+}
+
+.chave-pix{
+    color: var(--mainColor);
+    font-size: var(--sizeTextDefault);
+    font-family: var(--fontTitles);
+}
+
+.button-copiar-pix{
+    border: 5px solid #fff;
+    color: var(--accentColor);
+    padding: 15px;
+    box-shadow: var(--shadowDefault);
+    border-radius: 15px;
+    font-size: var(--sizeTextDefault);
+    font-family: var(--fontTitles);
+    background-color: var(--mainColor);
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button-copiar-pix:hover{
+    transform: scale(1.2em);
+}
+
+@media (max-width: 1225px){
+    .container-doacoes{
+        flex-wrap: wrap;
+    }
+}
