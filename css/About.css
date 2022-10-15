@@ -27,11 +27,10 @@ main {
   border-radius: 15px;
   box-shadow: var(--shadowDefault);
   margin-bottom: 60px;
-  padding: 10px;
+  padding: 15px;
 }
 
 .container-video-aii-desabrochar > iframe {
-  padding: 35px;
   height: 90%;
   width: 90%;
 }
@@ -165,7 +164,6 @@ main {
     font-size: 1.5em;
   }
   .container-video-aii-desabrochar > iframe {
-    padding: 35px;
     height: 70%;
     width: 90%;
   }
@@ -176,7 +174,6 @@ main {
     font-size: 1.2em;
   }
   .container-video-aii-desabrochar > iframe {
-    padding: 35px;
     height: 70%;
     width: 100%;
   }
@@ -184,7 +181,6 @@ main {
 
 @media (max-width: 530px) {
   .container-video-aii-desabrochar > iframe {
-    padding: 35px;
     height: 50%;
     width: 100%;
   }
