@@ -27,12 +27,13 @@ main {
   border-radius: 15px;
   box-shadow: var(--shadowDefault);
   margin-bottom: 60px;
-  padding: 20px;
+  padding: 10px;
 }
 
 .container-video-aii-desabrochar > iframe {
+  padding: 35px;
+  height: 90%;
   width: 90%;
-  height: 100%;
 }
 
 .container-historia-aii {
@@ -163,10 +164,28 @@ main {
   .info-fundacao {
     font-size: 1.5em;
   }
+  .container-video-aii-desabrochar > iframe {
+    padding: 35px;
+    height: 70%;
+    width: 90%;
+  }
 }
 
 @media (max-width: 600px) {
   .info-fundacao {
     font-size: 1.2em;
+  }
+  .container-video-aii-desabrochar > iframe {
+    padding: 35px;
+    height: 70%;
+    width: 100%;
+  }
+}
+
+@media (max-width: 530px) {
+  .container-video-aii-desabrochar > iframe {
+    padding: 35px;
+    height: 50%;
+    width: 100%;
   }
 }

@@ -1,0 +1,219 @@
+.container-oficinas-principal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+  border: 2px solid #fff;
+}
+
+.oficinas-titulo {
+  margin-top: 120px;
+}
+
+.container-oficina-corte-costura-principal {
+  margin-top: 30px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.container-oficina-corte-costura {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to bottom, #81101b, #d71525);
+  width: 90%;
+  padding: 20px;
+  border-radius: 15px;
+  flex-wrap: wrap;
+  box-shadow: var(--shadowDefault);
+  gap: 60px;
+}
+
+.container-icons-oficina {
+  border-radius: 50%;
+  background-color: var(--complementaryColorTwo);
+  border: 7px solid #f1f1f1;
+  width: 300px;
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 15px;
+}
+
+.container-icons-oficina > img {
+  width: 40%;
+}
+
+.container-info-oficina {
+  display: flex;
+  align-items: flex-start;
+  width: 60%;
+  justify-content: center;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.container-info-oficina > h1 {
+  color: var(--accentColor);
+  font-family: var(--fontTitles);
+  font-size: var(--sizeSubTitle);
+}
+
+.info-oficina {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+  flex-direction: column;
+}
+
+.info-oficina > h2 {
+  color: var(--accentColor);
+  font-size: var(--sizeTextDefault);
+  font-family: var(--fontTitles);
+  margin-bottom: 20px;
+}
+
+.info-oficina > li {
+  color: #f1f1f1;
+  font-size: var(--sizeTextDefault);
+  font-family: var(--fontTitles);
+}
+
+.container-foto {
+  background-color: var(--complementaryColorTwo);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  border: 4px solid #fff;
+  border-radius: 20px;
+  width: 300px;
+  height: 250px;
+}
+
+.container-foto > img {
+  width: 100%;
+  height: 90%;
+}
+
+.container-fotos-oficina-corte-costura {
+  width: 90%;
+  background: linear-gradient(to bottom, #81101b, #d71525);
+  box-shadow: var(--shadowDefault);
+  border-radius: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+  padding: 15px;
+  margin-bottom: 60px;
+}
+
+.paragrafo-oficina {
+  font-size: var(--sizeTextDefault);
+  font-family: var(--fontText);
+  color: #fff;
+}
+
+@media (max-width: 1125px) {
+  .paragrafo-oficina {
+    font-size: 1.5em;
+    text-align: justify;
+    width: 100%;
+  }
+  .info-oficina {
+    align-items: center;
+  }
+  .info-oficina > li {
+    font-size: 1.5em;
+
+    width: 100%;
+    text-align: justify;
+  }
+  .info-oficina > h2 {
+    font-size: 1.5em;
+    width: 100%;
+  }
+  .container-icons-oficina {
+    width: 250px;
+    height: 250px;
+  }
+  .container-info-oficina > h1 {
+    font-size: 2.5em;
+  }
+  .container-info-oficina {
+    align-items: center;
+    width: 100%;
+  }
+}
+
+@media (max-width: 800px) {
+  .paragrafo-oficina {
+    font-size: 1.5em;
+    width: 100%;
+  }
+  .info-oficina > li {
+    font-size: 1.5em;
+  }
+  .info-oficina > h2 {
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .container-icons-oficina {
+    width: 200px;
+    height: 200px;
+  }
+  .container-info-oficina > h1 {
+    font-size: 2.5em;
+  }
+}
+
+@media (max-width: 625px) {
+  .paragrafo-oficina {
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .info-oficina > li {
+    font-size: 1.2em;
+  }
+  .info-oficina > h2 {
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .container-icons-oficina {
+    width: 150px;
+    height: 150px;
+  }
+  .container-info-oficina > h1 {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 395px) {
+  .paragrafo-oficina {
+    font-size: 1em;
+  }
+  .info-oficina > li {
+    font-size: 1em;
+  }
+  .info-oficina > h2 {
+    font-size: 1.2em;
+    width: 100%;
+  }
+  .container-icons-oficina {
+    width: 120px;
+    height: 120px;
+  }
+  .container-info-oficina > h1 {
+    font-size: 1.2em;
+  }
+}
